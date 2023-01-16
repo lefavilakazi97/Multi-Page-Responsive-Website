@@ -1,0 +1,15 @@
+/* Responsive design */
+@media (max-width: 600px) {
+  /* Make the header and footer stack on top of each other */
+  header,
+  footer {
+    flex-direction: column;
+  }
+   /* Make the navigation menu into a dropdown */
+  nav ul {
+    display: none;
+  }
+  nav select {
+    display: block;
+  }
+}
